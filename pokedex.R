@@ -6,7 +6,7 @@ library(stringi)
 library(stringr)
 library(ggplot2)
 #get data
-setwd("~/Desktop/Codecademy")
+setwd("~/Desktop")
 wrk_dir<-getwd()
 all_pokemon <- read.csv(paste0(wrk_dir,"/all_pokemon.txt"))
 ##Call on Kanto or Jhoto Region
